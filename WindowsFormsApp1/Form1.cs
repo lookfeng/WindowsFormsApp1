@@ -15,6 +15,8 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            //save a gif
+
             // PropertyItem for the frame delay (apparently, no other way to create a fresh instance).
             var frameDelay = (PropertyItem)FormatterServices.GetUninitializedObject(typeof(PropertyItem));
             frameDelay.Id = 0x5100; // PropertyTagFrameDelay;
