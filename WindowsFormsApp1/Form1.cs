@@ -54,7 +54,7 @@ namespace WindowsFormsApp1
             p.Param[0] = new EncoderParameter(Encoder.SaveFlag, (long)EncoderValue.Flush);
             img.SaveAdd(p);
 
-            //img = Image.FromFile(@"C:\Users\lkf\Desktop\test.gif");
+            //img = Image.FromFile(@"C:\Users\lkf\Desktop\test.gif"); //must re read it
             pictureBox1.Image = img;
         }
 
